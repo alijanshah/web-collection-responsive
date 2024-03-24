@@ -1,0 +1,458 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+:root {
+  --color1: #001219;
+  --color2: #005f73;
+  --color3: #3d9397;
+  --color4: #94d28d;
+  --color5: #e9d8a6;
+  --color6: #ee9800;
+  --color7: #ca6702;
+  --color8: #bb3e03;
+  --color9: #ae2012;
+  --color10: #9b2226;
+}
+/* ************************************* section css work ********************** */
+/* html main box css */
+.main-box {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+/* header css */
+.header {
+  width: 100%;
+  height: 15%;
+  /* border: 1px solid blue; */
+  background-color: var(--color5);
+}
+/* navbar css . but navber is in header */
+.nav {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5px;
+  gap: 20px;
+}
+.link-1 {
+  width: 25%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.img {
+  width: 25%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.link-2 {
+  width: 25%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.nav .link-1 a,
+.link-2 a {
+  text-decoration: none;
+  padding: 0 1rem;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.section {
+  width: 100%;
+  border: 1px solid black;
+  background-color: var(--color7);
+}
+.section img {
+  width: 100%;
+}
+
+/*********************** section-2 css work ****************************************************/
+
+.section-2 {
+  width: 100%;
+  position: relative;
+  /* border: 1px solid red; */
+  height: 60%;
+  background-color: #e8edee;
+}
+
+.section-2 .h2 {
+  margin-left: 20%;
+  margin-top: 3%;
+  position: absolute;
+  font-size: 25px;
+  font-weight: 800;
+}
+.daiman-img {
+  position: absolute;
+  /* border: 1px solid red; */
+}
+
+.daiman-img img {
+  /* border: 1px solid blue; */
+  width: 50%;
+  height: auto;
+  margin-top: 9%;
+  margin-left: 10%;
+}
+.paragrap {
+  position: absolute;
+  margin-top: 10%;
+  /* margin-right: 0%; */
+  font-size: 20px;
+  right: 60px;
+}
+/* *********************************** SECTION-3 *************************** */
+.section-3 {
+  width: 100%;
+  height: 70%;
+  border: 1px solid red;
+  background-color: #005f73;
+}
+.section-3 .popular-print {
+  width: 20%;
+  height: 5%;
+  color: white;
+  margin-top: 20px;
+  margin-left: 10%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.figure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5%;
+}
+.fork-it-up {
+  position: relative;
+  object-fit: cover;
+}
+
+.figure .fork-it-up img {
+  width: 50%;
+  height: auto;
+  border: 5px solid var(--color9);
+}
+.fork-it-up h3 {
+  width: 48%;
+  height: 35px;
+  border: 1px solid brown;
+  color: black;
+  position: absolute;
+  background-color: white;
+  opacity: 0.5;
+  bottom: 9px;
+  left: 4px;
+}
+
+.eyeing-you {
+  position: relative;
+}
+.figure .eyeing-you img {
+  width: 50%;
+  height: auto;
+  border: 5px solid var(--color7);
+}
+.eyeing-you h3 {
+  width: 48%;
+  height: 35px;
+  border: 1px solid brown;
+  color: black;
+  position: absolute;
+  background-color: white;
+  opacity: 0.5;
+  bottom: 9px;
+  left: 4px;
+}
+.figure .lets-scoot img {
+  width: 50%;
+  height: auto;
+  border: 5px solid var(--color4);
+}
+.lets-scoot {
+  position: relative;
+}
+.lets-scoot h3 {
+  width: 48%;
+  height: 35px;
+  border: 1px solid brown;
+  color: black;
+  position: absolute;
+  background-color: white;
+  opacity: 0.5;
+  bottom: 8px;
+  left: 4px;
+}
+
+/* *********************************** SECTION-3  CLOSE HERE*************************** */
+
+/* ***********************************  SECTION-4  ****************************/
+
+.section-4 {
+  width: 100%;
+  height: fit-content;
+  background-color: #e8edee;
+}
+
+.section-4 h1 {
+  /* top: 25px; */
+  margin-left: 20%;
+}
+.section-4 .sec-4-figure {
+  width: 100%;
+  height: fit-content;
+  margin-top: 15px;
+  margin-left: 20%;
+}
+.too-cool-for-school {
+  position: relative;
+}
+.too-cool-for-school img {
+  display: block;
+}
+.sec-4-figure img {
+  width: 60%;
+  height: auto;
+  border: 5px solid var(--color7);
+  position: relative;
+}
+.too-cool-for-school h3 {
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  opacity: 0.8;
+  width: 59%;
+  height: 50px;
+  margin-left: 6px;
+  align-items: center;
+}
+
+/********************************* SECTION_4 CLOSE ******************************/
+
+/********************************** SECTION-5 START HERE *************** */
+/* 
+.section-5 {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid red;
+}
+.sec-5-figure-img {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  margin-top: 15px;
+  margin-left: 20%;
+}
+.sec-5-figure-img img {
+  width: 50%;
+  position: absolute;
+} */
+
+/********************************** SECTION-5 CLOSE  HERE *************** */
+
+/* **************************************** RESPONSIVE MOBILE APPROUCH  ***************/
+
+@media (max-width: 425px) {
+  .main-box {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+  }
+  /* ******************************************** HEADER RESPONSIVE ************** */
+  .header {
+    width: 100%;
+    height: 35%;
+    /* border: 1px solid blue; */
+  }
+  .nav {
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    /* display: block; */
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .link-1 {
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  .img {
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  .link-2 {
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  .img {
+    order: 1;
+  }
+  .nav .link-1 {
+    order: 1;
+  }
+  .nav .link-1 a {
+    border: 1px solid var(--color10);
+    color: white;
+    background-color: var(--color9);
+    border-radius: 5px;
+  }
+  .nav .link-2 a {
+    border: 1px solid var(--color10);
+    color: white;
+    background-color: var(--color9);
+    border-radius: 5px;
+  }
+  /* ************************************* HEADER CLOSE **************************** */
+
+  /* ****************************************** section responsive **********************/
+  .section {
+    width: 100%;
+    border: 1px solid;
+  }
+  .section img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* ****************************************** section CLOSE responsive **********************/
+}
+
+@media (max-width: 425px) {
+  .section-2 {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70vh;
+    background-color: var(#e8edee);
+  }
+
+  .section-2 .h2 {
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 45px;
+  }
+  .daiman-img {
+    /* border: 1px solid red; */
+    margin-top: 0;
+    display: flex;
+    flex: wrap;
+  }
+
+  .daiman-img img {
+    /* border: 1px solid blue; */
+    width: 100%;
+    /* height: auto; */
+    margin-top: 30%;
+    margin-left: 7%;
+  }
+  .paragrap {
+    position: absolute;
+    margin-top: 55%;
+    margin-right: 1%;
+    padding: 40px 5px;
+    font-size: 16px;
+  }
+  /* **************************SECTION-2 CLOSE RESPONSIVE ****** */
+
+  /****************************SECTION-3 RESPONSIVE *********** */
+
+  .section-3 {
+    width: 100%;
+    height: fit-content;
+    background-color: #005f73;
+  }
+  .section-3 .popular-print {
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 35px;
+    font-weight: 900;
+  }
+
+  .figure {
+    display: block;
+    gap: 50px;
+  }
+
+  .figure .fork-it-up img {
+    width: 100%;
+    border: 10px solid var(--color9);
+  }
+  .fork-it-up h3 {
+    width: 95%;
+    height: 50px;
+    border: 1px solid brown;
+    color: black;
+    position: absolute;
+    background-color: white;
+    opacity: 0.5;
+    bottom: 15px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .figure .eyeing-you img {
+    width: 100%;
+    border: 10px solid var(--color7);
+  }
+  .eyeing-you h3 {
+    width: 95%;
+    height: 50px;
+    border: 1px solid brown;
+    color: black;
+    position: absolute;
+    background-color: white;
+    opacity: 0.5;
+    bottom: 15px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .figure .lets-scoot img {
+    width: 100%;
+    border: 10px solid var(--color4);
+  }
+  .lets-scoot h3 {
+    width: 95%;
+    height: 50px;
+    border: 1px solid brown;
+    color: black;
+    position: absolute;
+    background-color: white;
+    opacity: 0.5;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  /************************SECTION-3 CLOSE RESPONSE *****************  */
+}
+
+/* @media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+} */
